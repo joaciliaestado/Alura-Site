@@ -1,0 +1,104 @@
+body {
+    background: rgb(102, 133, 225);
+    color: rgb(0, 0, 95);
+    margin: 10px;
+    justify-content: center;
+    font-family: 'Nunito Bold'; 
+}
+
+
+header  {
+        border: solid 3px antiquewhite;
+        border-bottom: solid 2px antiquewhite;
+        padding: 20px;
+        font-size: 32px;
+        color: antiquewhite;
+        justify-content: center;
+}
+
+
+section {
+    background: rgb(185, 216, 255);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto1 {
+    margin-left: 60%;
+}
+.chamada-texto2 {
+    margin-right: 30%;
+}
+div {
+    margin-right: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+
+-------------------------
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+.chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
